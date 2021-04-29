@@ -10,7 +10,7 @@ function Login({fetchUsers}) {
 
     return (
         <View style={styles.container}>
-          <Text style={{color:'#fff', fontSize:20}}>Welcome to my App</Text>
+          <Text style={{color:'#fff', fontSize:20}}>Welcome to my App 1</Text>
           <TextInput
             style={styles.inputBox}
             placeholder="Username"
