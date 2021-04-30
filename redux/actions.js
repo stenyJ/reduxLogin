@@ -1,10 +1,17 @@
 import axios from 'axios'
 import {SET_LOGIN_STATE} from './actionTypes'
+import {SET_LOGOUT_STATE} from './actionTypes'
 
 const setLoginState = users => {
     return {
       type: SET_LOGIN_STATE,
       payload:users
+    }; 
+  };
+
+  export const setLogoutState = () => {
+    return {
+      type: SET_LOGOUT_STATE,
     }; 
   };
 
