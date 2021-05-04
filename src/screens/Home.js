@@ -1,10 +1,10 @@
 import React,{useState,useEffect} from 'react'
 import {FlatList,View,Text,Image} from 'react-native';
 import axios from "axios";
-import { Container,Content,Card,CardItem,Thumbnail,Body,Left } from 'native-base';
+import { Container,Content,Card,CardItem,Thumbnail,Body,Left,Button } from 'native-base';
 import YoutubePlayer from 'react-native-youtube-iframe';
 
-function Home () {
+function Home ({navigation}) {
 
     const [feedData,setFeedData] = useState([]);
     
